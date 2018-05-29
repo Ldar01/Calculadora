@@ -10,5 +10,5 @@ package Main.Aritmetica;
  * @author LN710Q
  */
 public interface Aritmetico {
-    float calcular(int a, int b);
+    int calcular(int a, int b);
 }
