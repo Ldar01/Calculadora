@@ -10,5 +10,5 @@ package Main.Convertor;
  * @author LN710Q
  */
 public interface Convertor {
-     String Convertir(float a);  
+     String Convertir(int a);  
 }

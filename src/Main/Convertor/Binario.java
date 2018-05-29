@@ -12,15 +12,12 @@ package Main.Convertor;
 public class Binario implements Convertor {
 
     @Override
-    public String Convertir(float a) {
-        float temp = 0;
-        String numero;
-        while(a != 0 ){
-            temp = a;
-            a = a%2;
-            
-        }
-        return null;
+    public String Convertir(int a) {
+        
+        String binario = Integer.toBinaryString(a);
+        
+        return binario;
+        
     }
     
 }
